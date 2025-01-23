@@ -360,7 +360,9 @@ tr, td, th{
 .nav-name{
     width: 200px;
 }
-
+.hide{
+    display:none;
+}
 
       /* Style for the container */
       .new-grid-container {
