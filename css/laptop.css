@@ -1,0 +1,406 @@
+/*Responsive laptop*/
+@media only screen and (min-width: 992px) {
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(34,34,34,0.6),rgba(34,34,34,0.6)), url(../images/banner.jpg);
+    height: 300px;
+}
+
+.name {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.title_job{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+
+.topnav {
+    text-align: center;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 55px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+}
+
+.topnav a.active {
+    font-size: 25px;
+  }
+
+.topnav a.title_job {
+    font-size: 15px;
+    color: #868686;
+    top: 355px;
+}
+
+.topnav .nav_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+
+
+.column-1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 30px;
+    height: 435px; 
+    background-color: lightgray;
+}
+
+.column-2 {
+    float: left;
+    width: 66%;
+    padding: 10px;
+    height: 435px; 
+    background-color: darkgray;
+    padding-left: 50px;
+    padding-right: 170px;;
+    padding-bottom: 20px;
+}
+
+.main-info {
+  background-color: lightgray;
+  display: flex;
+  width:100%;
+}
+
+.icon-twitter{
+    color: rgb(0, 115, 255);
+}
+.icon-facebook{
+    color: rgb(0, 115, 255);
+}
+.icon-gplus{
+    color: rgb(0, 115, 255);
+}
+.icon-linkedin{
+    color: rgb(0, 115, 255);
+}
+
+.chungchi{
+    background-color: lightgrey;
+    padding-top: 20px;
+}
+.grid-item {
+    background-color: #fafafa;
+    color: rgb(31, 31, 31);
+    padding: 20px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    border: 1px solid grey;
+  }
+
+.icon-user, .icon-doc-text-inv, .icon-mail-alt, .icon-star-1{
+    color:#199cdb
+}
+
+.ic-toolbox, .ic-pencil, .ic-telescope, .ic-mic, .ic-tools-2{
+    font-size: 40px;
+    display: inline-block;
+}
+
+.ic-megaphone, .ic-strategy, .ic-hotairballoon, .ic-basket{
+    color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 200%;
+    padding: 15px;
+    margin-right:15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    padding: 20px;
+
+  }
+.box-title{
+    display: flex;
+    align-items: center;
+}
+
+.box-title h1{
+    width: 75%;
+}
+.music{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    gap: 20px;
+}
+.game{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+.travel{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    gap: 20px;
+}
+.cooking{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+.circles {
+    display: flex;
+    gap: 20px;
+}
+
+.line {
+    background: #199cdb;
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 60px;
+}
+.section-title{
+    font-size: 35px;
+}
+.grayline {
+    background: lightgray;
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 60px;
+}
+section{
+    margin: 0px 120px;
+}
+.container-certificate {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    border-bottom: 1px solid orange;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.certificate-box {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40% 55%;
+    gap: 3%;
+}
+
+.imgcertificate {
+    height: auto;
+    width: 100%;
+}
+
+.mt-40{
+    list-style-type: none;
+    margin-left: 5px;
+    line-height: 1.2;
+    font-size: 20px;
+    padding-left:5px;
+}
+
+.certificate-title{
+    font-size: 20px;
+}
+.certificate-title2{
+    font-size: 20px;
+}
+.present{
+    border: 1px solid white;
+    border-radius: 20%;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+.imgcertificate2{
+    width:114%;
+}
+.box-title{
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 50px;
+    width: 47%
+}
+.box-title-1{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 60px;
+    width: 90%
+}
+.project-title{
+    padding-left:20px;
+    font-size: 18px;;
+}
+.border-left{
+    padding-left: 15px;
+    border-left: 1px solid orange;
+}
+
+.container-project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+
+.project-section{
+    border: 1px solid gray; 
+}
+
+.img-project {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.year {
+    color: white;
+    background-color: #199cdb;
+    border: 1px solid white;
+    border-radius: 30%;
+    padding: 10px;
+    margin-right:15px;
+}
+
+.description {
+    padding-right: 20px;
+}
+
+
+
+.cv{
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.mota{
+    vertical-align: top;
+    width: 25%;
+    padding: 5px;
+}
+
+.mota-list{
+    width: 75%;
+    padding: 10px;
+}
+
+tr, td, th{
+    border-top: 1px solid gray;
+}
+
+.footer-container{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-link{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.myicon{
+    font-size:30px;
+    text-decoration: none;
+}
+.icon-link {
+    font-size: 30px;
+}
+.footer-section{
+    background-color: lightgrey;
+}
+
+.avatar-name{
+    position: absolute;
+    height: 150px;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.avatar-name img{
+    border: 8px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.nav-name{
+    width: 200px;
+}
+
+
+      /* Style for the container */
+      .new-grid-container {
+        display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cột có kích thước bằng nhau */
+  grid-template-rows: repeat(2, auto); /* 2 dòng tự động theo chiều cao nội dung */
+  gap: 10px; /* Khoảng cách giữa các ô (tùy chọn) */
+   
+            background-color: #f0f0f0;
+            border: 2px dashed #ccc;
+            margin: 20px auto;
+            margin-top: 50px !important;
+            padding: 20px;
+            text-align: left;
+        }
+
+        /* Hidden button by default */
+        .toggle-button {
+            display: none;
+            padding: 10px 20px;
+            background-color: orange;
+            color: black;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Style for hidden content */
+        .hidden-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        /* Hover area */
+        .hover-area {
+            padding: 10px;
+            background-color: #e0e0e0;
+            margin-bottom: 10px;
+          
+            position: relative;
+        }
+}

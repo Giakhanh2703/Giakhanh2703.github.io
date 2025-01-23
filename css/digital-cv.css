@@ -1,0 +1,73 @@
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .project-number{
+     
+        height:100px !important;
+  font-size: xx-large !important;
+    }
+}
+
+.mygrid{
+    margin: 0 auto !important; 
+}
+.container{
+    background-color: blue;
+    display:block;
+}
+.goals{
+    border: solid 10px blue;
+    padding: 20px;
+    background-color: rgb(205, 234, 246);
+}
+.team{
+    border: solid 10px blue;
+    padding: 20px;
+    background-color: rgb(205, 234, 246);
+}
+.scopes{
+    border: solid 10px blue;
+    padding: 20px;
+    background-color: rgb(205, 234, 246);
+}
+.primary{
+    border: solid 10px blue;
+    padding: 20px;
+    background-color: rgb(205, 234, 246);
+}
+.timeline{
+    border: solid 10px blue;
+    padding: 20px;
+    background-color: rgb(205, 234, 246);
+}
+.element{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 20px;
+}
+.project-number{
+    border: 2px solid black;
+  padding: 15px;
+  border-radius: 50% ;
+  background-color: rgb(182, 130, 238);
+    color: white;
+
+    height: 50px;
+    font-size: large;
+    text-align: center;
+}
+.icon{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+.content-timeline{
+    border-bottom: 1px solid skyblue;
+    margin-right: 25px;
+}
+.content-goal{
+    border-bottom: 1px solid skyblue;
+}
+.title-cv{
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    color: blue;
+}
